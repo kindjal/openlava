@@ -1,0 +1,5 @@
+#!/bin/sh
+
+/usr/bin/getent group openlava >/dev/null || /usr/sbin/groupadd openlava
+/usr/bin/getent passwd openlava >/dev/null || /usr/sbin/useradd -c "openlava Administrator" -g openlava -m -d /home/openlava openlava 2> /dev/null || :
+exit 0

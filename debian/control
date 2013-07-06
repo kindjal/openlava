@@ -1,0 +1,12 @@
+Source: openlava
+Section: misc
+Priority: optional
+Build-Depends: debhelper (>= 7), automake, tcl-dev, libncurses5-dev
+Maintainer: Matthew Callaway <mcallawa@genome.wustl.edu>
+Standards-Version: 3.8.3
+Homepage: http://openlava.org/
+
+Package: openlava
+Architecture: amd64
+Description: openlava Distributed Batch Scheduler
+ openlava Distributed Batch Scheduler
